@@ -265,3 +265,50 @@ footer {
   text-align: center;
   padding: 2rem;
 }
+
+#avis {
+  padding: 5rem 2rem;
+  background: rgba(0, 31, 63, 0.9);
+  text-align: center;
+  color: var(--blanc);
+}
+
+#avis h2 {
+  font-size: 2.4rem;
+  color: var(--vert-ligue1);
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.avis-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.avis {
+  background: var(--gris);
+  color: var(--bleu-fonce);
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.avis:hover {
+  transform: translateY(-5px);
+}
+
+.avis-texte {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.avis-nom {
+  font-weight: bold;
+  color: var(--bleu-fonce);
+}
